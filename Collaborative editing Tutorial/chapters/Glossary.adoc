@@ -6,7 +6,7 @@
 Git is an open source program for tracking changes in text files, and is the core technology that GitHub, the social and user interface, is built on top of.
 
 ==== Repository
-A repository is the most basic element of GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files, and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
+A repository is the most basic element of Git/GitHub. They're easiest to imagine as a project's folder. A repository contains all of the project files, and stores each file's revision history. Repositories can have multiple collaborators and can be either public or private.
 
 ==== Fork
 A fork is a personal copy of another user's repository that lives on your account. Forks allow you to freely make changes to a project without affecting the original. Forks remain attached to the original, allowing you to submit a pull request to the original's author to update with your changes. You can also keep your fork up to date by pulling in updates from the original.
@@ -41,6 +41,10 @@ Pull refers to when you are fetching in changes and merging them. For instance, 
 
 ==== Pull request
 Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
+
+_Why is a git 'pull request' not called a 'push request'?_
+
+A "pull request" is you requesting the target repository to please grab your changes. A "push request" would be the target repository requesting you to push your changes. When you send a pull request, you're asking (requesting) the official repo owner to pull some changes from your own repo. Hence "pull request".
 
 ==== Push
 Pushing refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
