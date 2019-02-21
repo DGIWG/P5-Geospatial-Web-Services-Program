@@ -50,7 +50,7 @@ A "pull request" is you requesting the target repository to please grab your cha
 
 Pull requests provide for checks and validations, even if anyone can push to master.
 
-The biggest advantage is that they provide an opportunity for review. The person that is responsible for performing the pull can look at the changes and make sure that they meet any kind of guidelines that the organization or team has (related to a specific issue for example).
+The biggest advantage is that they provide an opportunity for review. The person that is responsible for performing the pull can look at the changes and make sure that they meet any kind of guidelines that the organisation or team has (related to a specific issue for example).
 
 Developing a habit of using pull requests may also help the team if one decide in the future that the whole team shouldn't have access to master. If the team grows larger, and especially if you have team members who are new to the product and/or new to Git, not giving them access to master can be safer for product integrity.
 
